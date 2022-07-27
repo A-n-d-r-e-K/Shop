@@ -44,7 +44,7 @@ class App extends React.Component {
           id: 5,
           title: 'Пуфик жёлтый',
           img: '5.jpeg',
-          desc: 'Rit amet nisl ac est pharetra impordiet',
+          desc: 'Rit amet nisl ac est pharetra imperdiet',
           category: 'chairs',
           price: '11.46',
         },
