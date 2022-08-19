@@ -10,7 +10,7 @@ const showOrders = (props) => {
       {props.orders.map((el) => (
         <Order onDelete={props.onDelete} key={el.id} item={el} />
       ))}
-      <p className="summa">Сумма: {new Intl.NumberFormat().format(summa)}$</p>
+      <p className="summa">Total: {new Intl.NumberFormat().format(summa)}$</p>
     </div>
   );
 };
@@ -18,7 +18,7 @@ const showOrders = (props) => {
 const showNothing = () => {
   return (
     <div className="empty">
-      <h2>Товаров нет</h2>
+      <h2>No products</h2>
     </div>
   );
 };
@@ -30,9 +30,9 @@ export default function Header(props) {
       <div>
         <span className="logo">House Staff</span>
         <ul className="nav">
-          <li>Про нас</li>
-          <li>Контакты</li>
-          <li>Кабинет</li>
+          <li>About us</li>
+          <li>Contacts</li>
+          <li>Profile</li>
         </ul>
         <FaShoppingCart
           onClick={() => setCartOpen((cartOpen = !cartOpen))}

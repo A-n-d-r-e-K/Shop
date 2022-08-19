@@ -14,7 +14,7 @@ class App extends React.Component {
       items: [
         {
           id: 1,
-          title: "Стул серый",
+          title: "Chair gray",
           img: "1.jpeg",
           desc: "Rit amet nisl ac est pharetra imperdiet",
           category: "chairs",
@@ -22,7 +22,7 @@ class App extends React.Component {
         },
         {
           id: 2,
-          title: "Стол белый",
+          title: "Table white",
           img: "2.jpeg",
           desc: "Rit amet nisl ac est pharetra imperdiet",
           category: "tables",
@@ -30,7 +30,7 @@ class App extends React.Component {
         },
         {
           id: 3,
-          title: "Стол чёрный",
+          title: "Black table",
           img: "3.jpeg",
           desc: "Rit amet nisl ac est pharetra imperdiet",
           category: "tables",
@@ -38,7 +38,7 @@ class App extends React.Component {
         },
         {
           id: 4,
-          title: "Диван синий",
+          title: "Sofa blue",
           img: "4.jpeg",
           desc: "Rit amet nisl ac est pharetra imperdiet",
           category: "sofas",
@@ -46,7 +46,7 @@ class App extends React.Component {
         },
         {
           id: 5,
-          title: "Пуфик жёлтый",
+          title: "Pouffe yellow",
           img: "5.jpeg",
           desc: "Rit amet nisl ac est pharetra imperdiet",
           category: "pouffes",
@@ -54,7 +54,7 @@ class App extends React.Component {
         },
         {
           id: 6,
-          title: "Диван зелёный",
+          title: "Sofa green",
           img: "6.jpeg",
           desc: "Rit amet nisl ac est pharetra imperdiet",
           category: "sofas",
